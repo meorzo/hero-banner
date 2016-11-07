@@ -1,0 +1,35 @@
+html {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner-content {
+  padding: 0 1rem;
+  position: absolute;
+  bottom: 1rem;
+}
+
+h2 {
+  font-size: 4rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+p {
+  font-size: 2rem;
+  font-style: italic;
+
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
